@@ -1,5 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
+const config = require('./config.json');
 
 const time = new Date();
 
@@ -52,4 +53,4 @@ function randomUs(max) {
     return nameResult;
 };
 
-client.login('Nzc0MDQ5NTQ2MjUwMjIzNjM2.X6SH0A.T46WnqhbchDCHguvJvbhdTotd_s');
+client.login(config.token);
