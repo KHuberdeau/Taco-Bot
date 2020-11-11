@@ -1,0 +1,12 @@
+{
+  "name": "Taco Bot",
+  "version": "1.0.0",
+  "description": "Discord bot used for various tasks and tests",
+  "main": "bot.js",
+  "author": "Kalor Huberdeau",
+  "dependencies": {
+    "discord.io": "^2.5.3",
+    "discord.js": "^12.4.1",
+    "winston": "^3.3.3"
+  }
+}
