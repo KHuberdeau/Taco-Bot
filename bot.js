@@ -18,7 +18,7 @@ client.on('message', message => {
             message.channel.send("Man that guy is cool");
             break;
         case "!joel":
-            message.channel.send("At least he can still jerk with his right");
+            message.channel.send("Wishes he had function of two arms");
             break;
         case "!korden":
             message.channel.send("Probably paranoid right now");
